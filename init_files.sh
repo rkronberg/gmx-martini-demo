@@ -9,7 +9,4 @@ cp template/em.mdp em.mdp
 # Add index groups to MD input, copy to workdir
 sed "s|ADDINDEXGROUPS|$1 SOLVENTS|g" template/md.mdp > md.mdp
 
-# Select SYSTEM (0) for trjconv
-echo 0 > trj_inp
-
 echo "Initialized input files for $1 (topol.top, em.mdp, md.mdp)"
