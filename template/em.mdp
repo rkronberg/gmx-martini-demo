@@ -18,7 +18,7 @@ integrator               = steep
 ; start time and timestep in ps
 tinit                    = 0.0
 dt                       = 0.025
-nsteps                   = 500
+nsteps                   = 1000
 ; number of steps for center of mass motion removal = 
 nstcomm                  = 100
 comm-grps		 = 
