@@ -7,7 +7,7 @@ then
     exit
 fi
 
-# Set absolute paths in topolgy file
+# Set absolute paths in topology file
 sed "s|FIXME|$PWD|g" template/template.top > topol.top
 
 # Add type and number of lipid and solvent molecules
