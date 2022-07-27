@@ -2,8 +2,8 @@
 
 if [ ${#} -ne 4 ]
 then
-    echo "Usage: bash init_files.sh <lipid-name> <num-lipid-mols> <solvent-name> <num-solvent-mols>"
     echo "Input error!"
+    echo "Usage: bash init_files.sh <lipid-name> <num-lipid-mols> <solvent-name> <num-solvent-mols>"
     exit
 fi
 
