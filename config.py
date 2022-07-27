@@ -1,7 +1,5 @@
 from ipywidgets import widgets
 from IPython.display import display
-import nglview as nv
-import MDAnalysis as mda
 import warnings
 warnings.filterwarnings("ignore")
 
