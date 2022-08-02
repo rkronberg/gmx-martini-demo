@@ -1,4 +1,4 @@
-# gromacs-martini-demo
+# gmx-martini-demo
 
 :construction: Work in progress :construction:
 
